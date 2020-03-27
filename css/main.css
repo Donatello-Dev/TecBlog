@@ -1,1 +1,50 @@
 * {padding: 0px; margin: 0px;}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* CABEÇALHO DO BLOG */
+
+header{
+    background-color: #f7b600;
+    text-align: center;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+span{
+    color: #ffebcd;
+}
+
+/* MENU DE NAVEGAÇÂO */
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 20px 5px 30px 5px;
+}
+
+ul li a{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #4e4e4e;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #f7b600;
+    text-decoration: underline;
+}
