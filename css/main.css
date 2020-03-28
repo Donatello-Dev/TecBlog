@@ -19,23 +19,23 @@ h1{
     padding: 10px;
 }
 
-span{
+header span{
     color: #ffebcd;
 }
 
 /* MENU DE NAVEGAÇÂO */
 
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-ul li{
+nav ul li{
     margin: 20px 5px 30px 5px;
 }
 
-ul li a{
+nav a{
     padding: 10px 20px;
     color: #fff;
     border-radius: 10px;
@@ -43,8 +43,100 @@ ul li a{
     text-decoration: none;
 }
 
-ul li a:hover{
+nav a:hover{
     background-color: #fff;
     color: #f7b600;
     text-decoration: underline;
+}
+
+/* SEÇÂO DE COUNTEUDOS */
+
+main{
+    width: 77%;
+    margin: 0px auto;
+}
+
+section{
+    width: 100%;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.post1{
+    width: 61%;
+}
+
+a{
+    color: #f7b600;
+}
+
+h2{
+    color: #f7b600;
+}
+
+time{
+    font-size: 0.8em;
+}
+
+section img{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+section p{
+    margin: 10px 0px;
+    text-indent: 20px;
+}
+
+/* MENU LATERAL */
+
+aside{
+    float: right;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+h3{
+    color: #565656;
+    background: #cccccc;
+    padding: 7px;
+}
+
+aside p{
+    text-indent: 7px;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+aside a{
+    font-size: 0.8em;
+}
+
+hr{
+    margin: 10px 0px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    margin: 10px 0px;
+}
+
+aside ul a{
+    padding: 20px 50px 20px 7px;
+    font-size: 1em;
+}
+
+/* RODAPE DO SITE */
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #ccc;
 }
